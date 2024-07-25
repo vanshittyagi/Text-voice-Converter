@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cardparent{
+    background: linear-gradient(45deg, #010758, #490d61);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head {
+    color: white;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    display: flex;
+    margin-top: 20px;
+    margin-top: 10%;
+    gap: 15px;
+}
+.head h2{
+    font-size: 3rem;
+    color: #c00073;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+}
+.card {
+    margin-top: 40px;
+}
+.card textarea {
+    width: 480px;
+    height: 200px;
+    background-color: #5e63ada8;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    padding-top: 10px;
+    color: white;
+    font-size: 1.15rem;
+    overflow: auto;
+}
+
+.input::placeholder {
+    color: gray;
+}
+.bottom {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.bottom select{
+    width: 230px;
+    height: 30px;
+    color: white;
+    background-color: #4f548ea8;
+    margin-left: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.cancel img{
+    position: relative;
+    left: 32px;
+    top: 8px;
+    filter: invert(1);
+    cursor: pointer;
+}
+.cancel button{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    padding: 8px 20px 8px 30px;
+    cursor: pointer;
+}
+.sherr{
+    padding: 10px 30px 10px 50px;
+    color: white;
+    background-color: #c00073;
+    border: 0;
+    border-radius: 30px;
+    margin-left: 0px;
+    margin-top: -4px;
+    cursor: pointer;
+}
+
+.pngg img{
+    position: relative;
+    left: 50px;
+    top: 8px;
+    filter: invert(1);
+    cursor: pointer;
+}
+
